@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="288dp"
+    android:layout_height="234dp"
+    android:background="@drawable/bg_dialog_download"
+    android:backgroundTint="@color/white"
+    android:layout_gravity="center">
+
+    <TextView
+        android:id="@+id/tv_change_p"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/select_video_quality"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_change_p"
+        tools:ignore="UselessLeaf">
+
+        <RadioButton
+            android:id="@+id/r_btn_1080p"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:text="@string/_1080p"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:buttonTint="@color/red"/>
+
+        <RadioButton
+            android:id="@+id/r_btn_720p"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:text="@string/_720dp"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_marginTop="16dp"
+            android:buttonTint="@color/red"/>
+
+        <RadioButton
+            android:id="@+id/r_btn_480p"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:text="@string/_480p"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_marginTop="16dp"
+            android:buttonTint="@color/red" />
+
+    </RadioGroup>
+    
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_download"
+        android:layout_width="256dp"
+        android:layout_height="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/radio_group"
+        android:layout_marginTop="16dp"
+        android:text="@string/download_dialog"
+        android:textAllCaps="false"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Youtube_month6</string>
+    <string name="playlist">Playlist</string>
+    <string name="todo">todo</string>
+    <string name="_32_video_series">32 video series</string>
+    <string name="emotional_well_being_amp_healing_practices_for_children"><![CDATA[Emotional Well-being & Healing Practices for Children]]></string>
+    <string name="try_again">Try again</string>
+    <string name="back">Back</string>
+    <string name="time_of_video">04:28</string>
+    <string name="desc_detail">In this series, we break down the impact of displacement, instability, violence, and trauma in children, and offer exercises to support children in their healing journey.</string>
+    <string name="fab_button">FAB button</string>
+    <string name="how_displacement_instability_uncertainty_affect_children"><![CDATA[HOW DISPLACEMENT INSTABILITY & UNCERTAINTY AFFECT CHILDREN]]></string>
+    <string name="refugee_children_often_have_suffered_many_losses_and_because_of_that_they_are_grieving_these_losses_they_re_grieving_the_loss_of_their_home_the_loss_of_the_life_they_knew_the_places_where_they_were_used_to_be_and_that_they_loved_to_go_the_loss_of_their_friends_and_certainly_the_loss_of_their_family_members_and_loved_ones_so_naturally_they_re_going_to_have_sadness">Refugee children often have suffered many losses and because of that, they are grieving these losses they\'re grieving the loss of their home, the loss of the life they knew, the places where they were used to be and that they loved to go. The loss of their friends, and certainly the loss of their family members and loved ones. So naturally they\'re going to have sadness.</string>
+    <string name="select_video_quality">Select video quality</string>
+    <string name="_1080p">1080p</string>
+    <string name="_720dp">720p</string>
+    <string name="_480p">480p</string>
+    <string name="download_dialog">Download</string>
+    <string name="name_video">Name_Video</string>
+    <string name="col_video">col_video</string>
+    <string name="tv_playlist">Playlist</string>
+    <string name="tv_self_care_before_child_care">Self_care_before_child_care</string>
+    <string name="tv_32_video_series">32_video_series</string>
+    <string name="tv_title_how_displacement_instability_uncertainty_affect_children">title_how_displacement_instability_uncertainty_affect_children</string>
+    <string name="tv_download">Download</string>
+    <string name="tv_desc">Desc</string>
+    <string name="tv_video_name">video_name</string>
+    <string name="tv_time">time</string>
+    <string name="tv_back">Back</string>
+    <string name="tv_title">title</string>
+    <string name="tv_description">Desc</string>
+    <string name="tv_number_of_videos">Number of videos</string>
+    <string name="tv_try_again">Try Again</string>
+
+</resources>
